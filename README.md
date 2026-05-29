@@ -72,5 +72,5 @@ If you use this dataset in your research, please cite it as follows:
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub Repository},
-  howpublished = {\url{[https://github.com/medfanadi/3d-lidar-marine-debris.git](https://github.com/medfanadi/3d-lidar-marine-debris.git)}}
+  howpublished = {\url{[https://github.com/medfanadi/3d-LiDAR-marine-debris_Database.git](https://github.com/medfanadi/3d-LiDAR-marine-debris_Database.git)}}
 }
