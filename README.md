@@ -23,7 +23,7 @@ While the original code and datasets provided in this repository are open-source
 
 * **Project License (MIT):** The scripts, implementations, and datasets hosted directly in this repository are distributed under the [MIT License](LICENSE).
 * **MATLAB & Lidar Toolbox:** Running the core processing pipeline requires a valid [MATLAB License](https://www.mathworks.com/pricing-licensing.html) along with the **Lidar Toolbox** (used for processing 3D point clouds, sensor calibration, and object tracking algorithms).
-* * **OusterStudio:** Visualizing and interacting with the raw `.pcap` sensor recordings may require [OusterStudio](https://ouster.com/products/software/ouster-studio), which is proprietary software subject to Ouster's End User License Agreement (EULA).
+* **OusterStudio:** Visualizing and interacting with the raw `.pcap` sensor recordings may require [OusterStudio](https://ouster.com/products/software/ouster-studio), which is proprietary software subject to Ouster's End User License Agreement (EULA).
 * **Python:** The Python data-handling scripts rely on the open-source [Python Software Foundation (PSF) License](https://docs.python.org/3/license.html).
 
 ---
