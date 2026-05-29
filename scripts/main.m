@@ -1,5 +1,5 @@
 %% ========================================================================
-%  MARINE PERCEPTION SYSTEMS: AUTONOMOUS DETECTION WITHOUT GROUND EXTRACTION
+%   DETECTION of Floating marine debris based 3D-LiDAR 
 % ========================================================================
 %  Authors: LISIC Laboratory (UR 4491) / ULCO 
 %  Lead Investigator: Mohamed FNADI
