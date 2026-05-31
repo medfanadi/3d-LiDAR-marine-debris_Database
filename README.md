@@ -55,8 +55,8 @@ While the original code and datasets provided in this repository are open-source
 * Mohamed Fnadi –  LISIC / Université du Littoral Côte d'Opale (ULCO)
 * Régis Lherbier – LISIC / Université du Littoral Côte d'Opale (ULCO)
 * Benoît Gaurier – IFREMER Boulogne-Sur-Mer
-* Khalil Tarhda – Research Intern, LISIC / ULCO
-* Bastien Fabre – Research Intern, LISIC / ULCO
+* Khalil Tarhda – Research Intern, LISIC / ULCO (2024)
+* Bastien Fabre – Research Intern, LISIC / ULCO (2026)
 
 ---
 
