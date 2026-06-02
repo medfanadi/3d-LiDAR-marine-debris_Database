@@ -25,6 +25,19 @@ The dataset is split into two primary layers to facilitate both hardware-level p
 | **Target Application** | Point Cloud Processing, Cluster Segmentation, LIDAR-constrained Box Particle Filtering (LC-BPF) |
 | **Total Volume** | ~100 GB (Active recording campaigns ongoing) |
 
+---
+
+## 🛠️ Hardware Specification & Operational Profiles
+
+All data streams were captured using an **Ouster OS1-128** digital LiDAR sensor configured with a uniform vertical angular resolution. The primary hardware parameters maintained throughout both experimental campaigns are outlined below:
+
+| Parameter | Operational Setting | Technical Notes |
+| :--- | :--- | :--- |
+| **Beam Configuration** | 128 Channels (Uniform) | Provides high-density vertical sampling over water surfaces |
+| **Frame Rate** | 10 Hz | Sampling period $\Delta t = 0.1$\,s between successive packets |
+| **Horizontal Resolution** | 1024 columns | Balanced azimuth resolution for high-speed frame parsing |
+| **Wavelength** | 865 nm | Near-infrared band optimized for surface reflectivity |
+| **Range Resolution** | $\pm 1$ to $3$\,cm | Tightly bounds the structural sensor uncertainty ($[\mathbf{v}]$) |
 
 ---
 
