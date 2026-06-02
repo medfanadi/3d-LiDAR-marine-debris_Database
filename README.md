@@ -24,13 +24,9 @@ The dataset consists of:
 - **Raw packet capture files (`.pcap`)** containing the recorded sensor data.
 - **Processed metadata files (`.json`)** associated with each recorded frame.
 
----
-
 ### Dataset Size
 
 The current dataset size is approximately **100 GB**. Additional recording campaigns are underway to collect more scenarios and further expand the dataset.
-
----
 
 ### Sensor Data
 
