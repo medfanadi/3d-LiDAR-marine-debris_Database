@@ -2,90 +2,83 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MATLAB](https://img.shields.io/badge/MATLAB-Required-orange.svg)](https://www.mathworks.com/products/matlab.html)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Ouster](https://img.shields.io/badge/Sensor-Ouster_OS1--128-lightgrey.svg)](https://ouster.com/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-This repository hosts a multi-acquisition 3D LiDAR dataset, alongside **MATLAB** and **Python** implementations for the detection, segmentation, and tracking of floating marine debris. The data was captured using a high-resolution **Ouster OS1-128** sensor across both controlled laboratory conditions and real-world maritime environments.
+This repository hosts a comprehensive multi-acquisition 3D LiDAR dataset alongside **MATLAB** and **Python** implementations optimized for the detection, segmentation, and state-bounding tracking of floating marine debris. The data was captured utilizing a high-resolution **Ouster OS1-128** sensor across both controlled laboratory flumes and dynamic real-world maritime environments.
 
 ---
 
 ## 📌 Repository Overview
 
-### Data Formats
+### Data Formats & Architecture
+The dataset is split into two primary layers to facilitate both hardware-level packet decoding and high-level abstract analysis:
+* **Raw Packet Captures (`.pcap`)**: Unmodified raw network data packets recorded directly from the sensor streams.
+* **Processed Metadata (`.json`)**: Synchronized frame metadata containing structured sensor information, telemetry, and index arrays.
 
-The dataset consists of:
+### Dataset Specifications
 
-- **Raw packet capture files (`.pcap`)** containing the recorded sensor data.
-- **Processed metadata files (`.json`)** associated with each recorded frame.
-
-### Dataset Size
-
-The current dataset size is approximately **100 GB**. Additional recording campaigns are underway to collect more scenarios and further expand the dataset.
-
-### Sensor Data
-
-The recordings were acquired using an **Ouster OS1-128 3D LiDAR** sensor operating at **10 Hz** (one frame every 0.1 seconds).
-
-Each frame in the dataset has:
-- Corresponding raw data stored in the `.pcap` file.
-- An associated `.json` file containing frame metadata and sensor information.
-
-This structure enables both low-level packet analysis from the raw captures and high-level processing using the metadata files.
+| Metric | Specification |
+| :--- | :--- |
+| **Total Volume** | ~100 GB (Active recording campaigns ongoing) |
+| **Sensor Hardware** | Ouster OS1-128 Uniform Beam 3D LiDAR |
+| **Temporal Frequency** | 10 Hz (1 frame every 0.1 seconds) |
+| **Target Application** | Box Particle Filtering (LC-BPF), Cluster Segmentation, Point Cloud Processing |
 
 ---
 
 ## 🔬 Experimental Frameworks
 
 ### 1. Controlled Flume Tank Experiments (IFREMER, Boulogne-sur-Mer)
-This phase involved advanced marine research conducted inside the specialized wave and current flume tank at the **IFREMER** facility in Boulogne-sur-Mer, France. 
+Advanced maritime research was conducted within the specialized wave and current flume tank at the **IFREMER** facility in Boulogne-sur-Mer, France. 
 
-* **Objective:** Evaluate multi-sensor LiDAR capabilities to detect, track, and characterize floating debris under highly controlled, simulated dynamic maritime conditions (waves, currents, and varying flow velocities).
+* **Objective:** Evaluate multi-sensor 3D-LiDAR tracking frameworks (such as the proposed LC-BPF algorithm) to detect, isolate, and bound floating debris under deterministic hydrodynamic forces (simulated wave spectra, uniform flows, and high tidal velocities).
 
 <p align="center">
-  <img width="650" height="600" alt="IFREMER Experimental Setup" src="https://github.com/user-attachments/assets/d8e3c91f-c46e-488b-b1b5-c9e1321f85ce" />
+  <img src="https://github.com/user-attachments/assets/d8e3c91f-c46e-488b-b1b5-c9e1321f85ce" width="650" alt="IFREMER Experimental Setup" />
 </p>
 
-### 2. Real-World Port Environment Testing (Calais Port)
-Detecting macro-plastic debris in situ presents severe challenges due to the low reflectivity of water surfaces and the chaotic dynamics of tidal or riverine environments. 
+### 2. Real-World Port Testing (Calais Port)
+Detecting passive macro-plastic debris in situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter, and chaotic tidal transitions.
 
-* **Objective:** Benchmark the sensor's capacity to successfully capture, isolate, and cluster sparse point cloud data originating from small, floating plastic objects under real-world ambient conditions.
+* **Objective:** Benchmark the algorithm's capacity to extract, cluster, and track sparse point cloud geometries originating from small, unactuated floating objects under unconstrained ambient noise and wave perturbations.
 
 <p align="center">
-  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/1a691508-be2c-4a91-aa55-f36b9cc08681" />
+  <img src="https://github.com/user-attachments/assets/1a691508-be2c-4a91-aa55-f36b9cc08681" width="100%" alt="Calais Port Experimental Setup and Data Output" />
 </p>
 
 ---
 
-## ⚖️ Licensing and Software Dependencies
+## ⚖️ Dependencies and Licenses
 
-While the original code and datasets provided in this repository are open-source, interacting with the data and running the full pipeline requires specific software environments:
+While the scripts and algorithmic setups provided in this repository are fully open-source, interfacing with the dataset and running the execution pipeline requires the following environmental stack:
 
-* **Project License (MIT):** The scripts, implementations, and datasets hosted directly in this repository are distributed under the [MIT License](LICENSE).
-* **MATLAB & Lidar Toolbox:** Running the core processing pipeline requires a valid [MATLAB License](https://www.mathworks.com/pricing-licensing.html) along with the **Lidar Toolbox** (used for processing 3D point clouds, sensor calibration, and object tracking algorithms).
-* **OusterStudio:** Visualizing and interacting with the raw `.pcap` sensor recordings may require [OusterStudio](https://ouster.com/products/software/ouster-studio), which is proprietary software subject to Ouster's End User License Agreement (EULA).
-* **Python:** The Python data-handling scripts rely on the open-source [Python Software Foundation (PSF) License](https://docs.python.org/3/license.html).
+* **Repository Code License:** Distributed under the permissive [MIT License](LICENSE).
+* **MATLAB Processing Core:** Requires a valid [MATLAB License](https://www.mathworks.com/pricing-licensing.html) paired with the **Lidar Toolbox** (used for geometric 3D point cloud filtering, interval propagation, and object-tracking).
+* **OusterStudio (Optional):** Used for direct local visualization and manual telemetry playback of the raw `.pcap` captures. Subject to Ouster's End-User License Agreement (EULA).
+* **Python Environment:** Data parsing scripts are built on open-source libraries compliant with the [Python Software Foundation (PSF) License](https://docs.python.org/3/license.html).
 
 ---
-  
-  ## 👥 Contributors 
 
-* Mohamed Fnadi –  LISIC / Université du Littoral Côte d'Opale (ULCO)
-* Régis Lherbier – LISIC / Université du Littoral Côte d'Opale (ULCO)
-* Benoît Gaurier – IFREMER Boulogne-Sur-Mer
-* Khalil Tarhda – Research Intern, LISIC / ULCO (2026)
-* Bastien Fabre – Research Intern, LISIC / ULCO (2024)
+## 👥 Contributors 
+
+* **Mohamed Fnadi** – LISIC / Université du Littoral Côte d'Opale (ULCO)
+* **Régis Lherbier** – LISIC / Université du Littoral Côte d'Opale (ULCO)
+* **Benoît Gaurier** – IFREMER Boulogne-Sur-Mer
+* **Khalil Tarhda** – Research Intern, LISIC / ULCO (2026)
+* **Bastien Fabre** – Research Intern, LISIC / ULCO (2024)
 
 ---
 
 ## 📄 Citation
 
-If you use this dataset in your research, please cite it as follows:
+If you use this dataset or code in your academic research, please cite this work using the following format:
 
 ### BibTeX
 ```bibtex
 @misc{fnadi2026marine,
-  author       = {Fnadi, Mohamed and Lherbier, Régis and Gaurier, Benoit and Tarhda, Khalil and Fabre, Bastien,
-  title        = {3D-LiDAR-Marine-Debris: Detection and Tracking Dataset},
+  author       = {Fnadi, Mohamed and Lherbier, R\'{e}gis and Gaurier, Benoit and Tarhda, Khalil and Fabre, Bastien},
+  title        = {{3D-LiDAR-Marine-Debris: Detection and Tracking Dataset}},
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub Repository},
