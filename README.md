@@ -17,6 +17,33 @@ This repository hosts a multi-acquisition 3D LiDAR dataset, alongside **MATLAB**
 
 ---
 
+## Data Formats
+
+The dataset consists of:
+
+- **Raw packet capture files (`.pcap`)** containing the recorded sensor data.
+- **Processed metadata files (`.json`)** associated with each recorded frame.
+
+---
+
+### Dataset Size
+
+The current dataset size is approximately **100 GB**. Additional recording campaigns are underway to collect more scenarios and further expand the dataset.
+
+---
+
+### Sensor Data
+
+The recordings were acquired using an **Ouster OS1-128 3D LiDAR** sensor operating at **10 Hz** (one frame every 0.1 seconds).
+
+Each frame in the dataset has:
+- Corresponding raw data stored in the `.pcap` file.
+- An associated `.json` file containing frame metadata and sensor information.
+
+This structure enables both low-level packet analysis from the raw captures and high-level processing using the metadata files.
+
+---
+
 ## 🔬 Experimental Frameworks
 
 ### 1. Controlled Flume Tank Experiments (IFREMER, Boulogne-sur-Mer)
@@ -55,8 +82,8 @@ While the original code and datasets provided in this repository are open-source
 * Mohamed Fnadi –  LISIC / Université du Littoral Côte d'Opale (ULCO)
 * Régis Lherbier – LISIC / Université du Littoral Côte d'Opale (ULCO)
 * Benoît Gaurier – IFREMER Boulogne-Sur-Mer
-* Khalil Tarhda – Research Intern, LISIC / ULCO
-* Bastien Fabre – Research Intern, LISIC / ULCO
+* Khalil Tarhda – Research Intern, LISIC / ULCO (2026)
+* Bastien Fabre – Research Intern, LISIC / ULCO (2024)
 
 ---
 
