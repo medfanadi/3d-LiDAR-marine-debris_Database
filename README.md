@@ -20,10 +20,11 @@ The dataset is split into two primary layers to facilitate both hardware-level p
 
 | Metric | Specification |
 | :--- | :--- |
-| **Total Volume** | ~100 GB (Active recording campaigns ongoing) |
 | **Sensor Hardware** | Ouster OS1-128 Uniform Beam 3D LiDAR |
 | **Temporal Frequency** | 10 Hz (1 frame every 0.1 seconds) |
-| **Target Application** | Box Particle Filtering (LC-BPF), Cluster Segmentation, Point Cloud Processing |
+| **Target Application** | Point Cloud Processing, Cluster Segmentation, LIDAR-constrained Box Particle Filtering (LC-BPF) |
+| **Total Volume** | ~100 GB (Active recording campaigns ongoing) |
+
 
 ---
 
