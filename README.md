@@ -11,13 +11,7 @@ This repository hosts a multi-acquisition 3D LiDAR dataset, alongside **MATLAB**
 
 ## 📌 Repository Overview
 
-* **Data Formats:** Raw packet captures (`.pcap`) and processed metadata (`.json`).
-* **Hardware:** Ouster OS1-128 3D LiDAR.
-* **Software:** MATLAB algorithms for point cloud processing, segmentation, and object clustering.
-
----
-
-## Data Formats
+### Data Formats
 
 The dataset consists of:
 
