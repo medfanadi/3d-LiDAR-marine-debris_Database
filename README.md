@@ -13,7 +13,7 @@ This repository hosts a comprehensive multi-acquisition 3D LiDAR dataset alongsi
 
 ### Data Formats & Architecture
 The dataset is split into two primary layers to facilitate both hardware-level packet decoding and high-level abstract analysis:
-* **Raw Packet Captures (`.pcap`)**: Unmodified raw network data packets recorded directly from the sensor streams.
+* **Raw Packet Captures (`.pcap`)**: raw network data packets recorded directly from the sensor streams.
 * **Processed Metadata (`.json`)**: Synchronized frame metadata containing structured sensor information, telemetry, and index arrays.
 
 ### Dataset Specifications
@@ -27,9 +27,9 @@ The dataset is split into two primary layers to facilitate both hardware-level p
 
 ---
 
-## 🛠️ Hardware Specification & Operational Profiles
+## 🛠️ Hardware Specification
 
-All data streams were captured using an **Ouster OS1-128** digital LiDAR sensor configured with a uniform vertical angular resolution. The primary hardware parameters maintained throughout both experimental campaigns are outlined below:
+All data streams were captured using an **Ouster OS1-128 with embarked IMU** digital LiDAR sensor configured with a uniform vertical angular resolution. The primary hardware parameters maintained throughout both experimental campaigns are outlined below:
 
 | Parameter | Operational Setting | Technical Notes |
 | :--- | :--- | :--- |
