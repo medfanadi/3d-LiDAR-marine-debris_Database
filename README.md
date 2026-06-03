@@ -58,7 +58,7 @@ Detecting passive macro-plastic debris in situ presents severe operational chall
 * **Objective:** Benchmark the algorithm's capacity to extract, cluster, and track sparse point cloud geometries originating from small, unactuated floating objects under unconstrained ambient noise and wave perturbations.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1a691508-be2c-4a91-aa55-f36b9cc08681" width="100%" alt="Calais Port Experimental Setup and Data Output" />
+  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/1a691508-be2c-4a91-aa55-f36b9cc08681" />
 </p>
 
 ---
