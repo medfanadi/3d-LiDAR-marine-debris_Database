@@ -52,6 +52,9 @@ Advanced maritime research was conducted within the specialized wave and current
   <img src="https://github.com/user-attachments/assets/d8e3c91f-c46e-488b-b1b5-c9e1321f85ce" width="650" alt="IFREMER Experimental Setup" />
 </p>
 
+<img width="1080" height="992" alt="IFREMER" src="https://github.com/user-attachments/assets/53ef5627-bdb9-4a0c-be0d-5c31feab50f1" />
+
+
 ### 2. Real-World Port Testing (Calais Port)
 Detecting passive macro-plastic debris in situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter, and chaotic tidal transitions.
 
