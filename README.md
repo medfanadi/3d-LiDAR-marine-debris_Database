@@ -9,6 +9,28 @@ This repository hosts a comprehensive multi-acquisition 3D LiDAR dataset alongsi
 
 ---
 
+## 🔬 Experimental Frameworks
+
+### 1. Controlled Flume Tank Experiments (IFREMER, Boulogne-sur-Mer)
+Advanced maritime research was conducted within the specialized wave and current flume tank at the **IFREMER** facility in Boulogne-sur-Mer, France. 
+
+* **Objective:** Evaluate multi-sensor 3D-LiDAR tracking frameworks (such as the proposed LC-BPF algorithm) to detect, isolate, and bound floating debris under deterministic hydrodynamic forces (simulated wave spectra, uniform flows, and high tidal velocities).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/53ef5627-bdb9-4a0c-be0d-5c31feab50f1" width="650" alt="IFREMER Experimental Setup" />
+</p>
+
+### 2. Real-World Port Testing (Calais Port)
+Detecting passive macro-plastic debris in situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter, and chaotic tidal transitions.
+
+* **Objective:** Benchmark the algorithm's capacity to extract, cluster, and track sparse point cloud geometries originating from small, unactuated floating objects under unconstrained ambient noise and wave perturbations.
+
+<p align="center">
+  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/40235222-3b0a-443a-867e-b0bd3624a236" />
+</p>
+
+---
+
 ## 📌 Repository Overview
 
 ### Data Formats & Architecture
@@ -38,28 +60,6 @@ All data streams were captured using an **Ouster OS1-128 with embarked IMU** dig
 | **Horizontal Resolution** | 1024 columns | Balanced azimuth resolution for high-speed frame parsing |
 | **Wavelength** | 865 nm | Near-infrared band optimized for surface reflectivity |
 | **Range Resolution** | $\pm 1$ to $3$\,cm | Tightly bounds the structural sensor uncertainty ($[\mathbf{v}]$) |
-
----
-
-## 🔬 Experimental Frameworks
-
-### 1. Controlled Flume Tank Experiments (IFREMER, Boulogne-sur-Mer)
-Advanced maritime research was conducted within the specialized wave and current flume tank at the **IFREMER** facility in Boulogne-sur-Mer, France. 
-
-* **Objective:** Evaluate multi-sensor 3D-LiDAR tracking frameworks (such as the proposed LC-BPF algorithm) to detect, isolate, and bound floating debris under deterministic hydrodynamic forces (simulated wave spectra, uniform flows, and high tidal velocities).
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/53ef5627-bdb9-4a0c-be0d-5c31feab50f1" width="650" alt="IFREMER Experimental Setup" />
-</p>
-
-### 2. Real-World Port Testing (Calais Port)
-Detecting passive macro-plastic debris in situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter, and chaotic tidal transitions.
-
-* **Objective:** Benchmark the algorithm's capacity to extract, cluster, and track sparse point cloud geometries originating from small, unactuated floating objects under unconstrained ambient noise and wave perturbations.
-
-<p align="center">
-  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/40235222-3b0a-443a-867e-b0bd3624a236" />
-</p>
 
 ---
 
