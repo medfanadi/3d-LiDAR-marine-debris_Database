@@ -5,7 +5,7 @@
 [![Ouster](https://img.shields.io/badge/Sensor-Ouster_OS1--128-lightgrey.svg)](https://ouster.com/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-This repository hosts a comprehensive multi-acquisition 3D LiDAR dataset alongside **MATLAB** and **Python** implementations optimized for the detection, segmentation, and state-bounding tracking of floating marine debris. The data was captured utilizing a high-resolution **Ouster OS1-128** sensor across both controlled laboratory flumes and dynamic real-world maritime environments.
+This repository hosts a comprehensive multi-acquisition 3D-LiDAR dataset specifically curated to advance research in detecting and tracking floating marine debris. The data was captured utilizing a high-resolution **Ouster OS1-128** sensor across both controlled laboratory flume tank at IFREMER and dynamic real-world maritime environments.
 
 ---
 
