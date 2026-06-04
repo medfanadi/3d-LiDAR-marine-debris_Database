@@ -14,16 +14,17 @@ This repository hosts a comprehensive multi-acquisition 3D LiDAR dataset alongsi
 ### 1. Controlled Flume Tank Experiments (IFREMER, Boulogne-sur-Mer)
 Advanced maritime research was conducted within the specialized wave and current flume tank at the **IFREMER** facility in Boulogne-sur-Mer, France. 
 
-* **Objective:** Evaluate multi-sensor 3D-LiDAR tracking frameworks (such as the proposed LC-BPF algorithm) to detect, isolate, and bound floating debris under deterministic hydrodynamic forces (simulated wave spectra, uniform flows, and high tidal velocities).
+* **Objective:**  Evaluate a multi-sensor 3D-LiDAR with an onboard IMU to detect, isolate, and bound floating debris under varying hydrodynamic conditions, as well as to validate the tracking filter using the collected 3D-LiDAR data.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/53ef5627-bdb9-4a0c-be0d-5c31feab50f1" width="650" alt="IFREMER Experimental Setup" />
 </p>
 
 ### 2. Real-World Port Testing (Calais Port)
-Detecting passive macro-plastic debris in situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter, and chaotic tidal transitions.
+Detecting floating plastic debris in situ presents severe operational challenges for 3D-LiDAR sensors, primarily due to low water-surface retroreflectivity, highly dynamic environmental clutter, and unpredictable ambient illumination.
 
-* **Objective:** Benchmark the algorithm's capacity to extract, cluster, and track sparse point cloud geometries originating from small, unactuated floating objects under unconstrained ambient noise and wave perturbations.
+* **Objective:**  Benchmark the algorithm's capacity to extract, cluster, and track high-uncertainty point cloud geometries originating from small, unactuated floating objects under real-world wave perturbations and tidal currents.
+Detecting flaoting plastic debris in-situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter using 3D-LiDAR senors.
 
 <p align="center">
   <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/40235222-3b0a-443a-867e-b0bd3624a236" />
