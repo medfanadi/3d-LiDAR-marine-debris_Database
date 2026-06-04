@@ -12,19 +12,19 @@ This repository hosts a comprehensive multi-acquisition 3D-LiDAR dataset specifi
 ## 🔬 Experimental Frameworks
 
 ### 1. Controlled Flume Tank Experiments (IFREMER, Boulogne-sur-Mer)
-Advanced maritime research was conducted within the specialized wave and current flume tank at the **IFREMER** facility in Boulogne-sur-Mer, France. 
+Advanced maritime experiments were conducted in the specialized wave-and-current flume tank at the IFREMER facility in Boulogne-sur-Mer, France.
 
-* **Objective:**  Evaluate a multi-sensor 3D-LiDAR with an onboard IMU to detect, isolate, and bound floating debris under varying hydrodynamic conditions, as well as to validate the tracking filter using the collected 3D-LiDAR data.
+* **Objective:**  Evaluate the performance of a multi-sensor 3D LiDAR system integrated with an onboard IMU for detecting, isolating, and estimating the spatial extent of floating debris under varying wave and current conditions. The experiments also aimed to validate the tracking filter using the collected 3D LiDAR measurements.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/53ef5627-bdb9-4a0c-be0d-5c31feab50f1" width="650" alt="IFREMER Experimental Setup" />
 </p>
 
 ### 2. Real-World Port Testing (Calais Port)
-Detecting floating plastic debris in situ presents severe operational challenges for 3D-LiDAR sensors, primarily due to low water-surface retroreflectivity, highly dynamic environmental clutter, and unpredictable ambient illumination.
+Detecting floating plastic debris in-situ presents severe operational challenges for 3D-LiDAR sensors, primarily due to low water-surface retroreflectivity, highly dynamic environmental clutter, and water surface refraction.
 
-* **Objective:**  Benchmark the algorithm's capacity to extract, cluster, and track high-uncertainty point cloud geometries originating from small, unactuated floating objects under real-world wave perturbations and tidal currents.
-Detecting flaoting plastic debris in-situ presents severe operational challenges due to low water-surface retroreflectivity, environmental clutter using 3D-LiDAR senors.
+* **Objective:**  Evaluate the algorithm’s performance in extracting, clustering, and tracking uncertain point-cloud geometries associated with small, unactuated floating objects under realistic wave and current conditions.
+In-situ detection of floating plastic debris using 3D LiDAR sensors remains challenging due to the low reflectivity of the water surface and the presence of substantial environmental clutter.
 
 <p align="center">
   <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/40235222-3b0a-443a-867e-b0bd3624a236" />
