@@ -27,7 +27,7 @@ Detecting floating plastic debris in-situ presents severe operational challenges
 In-situ detection of floating plastic debris using 3D LiDAR sensors remains challenging due to the low reflectivity of the water surface and the presence of substantial environmental clutter.
 
 <p align="center">
-  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/40235222-3b0a-443a-867e-b0bd3624a236" />
+  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
 </p>
 
 ---
