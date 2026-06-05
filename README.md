@@ -17,7 +17,7 @@ Advanced maritime experiments were conducted in the specialized wave-and-current
 * **Objective:**  Evaluate the performance of a multi-sensor 3D LiDAR system integrated with an onboard IMU for detecting, isolating, and estimating the spatial extent of floating debris under varying wave and current conditions. The experiments also aimed to validate the tracking filter using the collected 3D LiDAR measurements.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/53ef5627-bdb9-4a0c-be0d-5c31feab50f1" width="650" alt="IFREMER Experimental Setup" />
+  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
 </p>
 
 ### 2. Real-World Port Testing (Calais Port)
@@ -27,7 +27,7 @@ Detecting floating plastic debris in-situ presents severe operational challenges
 In-situ detection of floating plastic debris using 3D LiDAR sensors remains challenging due to the low reflectivity of the water surface and the presence of substantial environmental clutter.
 
 <p align="center">
-  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
+  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/0b3c20ed-7e5f-44b4-b069-2febec6aea0b" />
 </p>
 
 ---
