@@ -82,20 +82,3 @@ While the scripts and algorithmic setups provided in this repository are fully o
 * **Benoît Gaurier** – IFREMER Boulogne-Sur-Mer
 * **Khalil Tarhda** – Research Intern, LISIC / ULCO (2026)
 * **Bastien Fabre** – Research Intern, LISIC / ULCO (2024)
-
----
-
-## 📄 Citation
-
-If you use this dataset or code in your academic research, please cite this work using the following format:
-
-### BibTeX
-```bibtex
-@misc{fnadi2026marine,
-  author       = {Fnadi, Mohamed and Lherbier, R\'{e}gis and Gaurier, Benoit and Tarhda, Khalil and Fabre, Bastien},
-  title        = {{3D-LiDAR-Marine-Debris: Detection and Tracking Dataset}},
-  year         = {2026},
-  publisher    = {GitHub},
-  journal      = {GitHub Repository},
-  howpublished = {\url{[https://github.com/medfanadi/3d-LiDAR-marine-debris_Database.git](https://github.com/medfanadi/3d-LiDAR-marine-debris_Database.git)}}
-}
