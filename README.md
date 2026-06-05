@@ -17,7 +17,7 @@ Advanced maritime experiments were conducted in the specialized wave-and-current
 * **Objective:**  Evaluate the performance of a multi-sensor 3D LiDAR system integrated with an onboard IMU for detecting, isolating, and estimating the spatial extent of floating debris under varying wave and current conditions. The experiments also aimed to validate the tracking filter using the collected 3D LiDAR measurements.
 
 <p align="center">
-  <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
+  <img width="120%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
 </p>
 
 ### 2. Real-World Port Testing (Calais Port)
