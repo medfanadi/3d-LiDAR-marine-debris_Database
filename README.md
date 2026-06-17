@@ -30,14 +30,13 @@ In-situ detection of floating plastic debris using 3D LiDAR sensors remains chal
   <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/0b3c20ed-7e5f-44b4-b069-2febec6aea0b" />
 </p>
 
-Tracking of flating Objects based 3D-LIDAR
+#### Experimental Tracking 
+
+The pipeline leverages an advanced spatial filtering stage combined with a **Joint Probabilistic Data Association Filter (JPDAF)** 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/70a830c7-0e7c-4548-af64-dc179f4f781d" width="100%" alt="3D-LiDAR Multi-Object Tracking Output" />
-</p>
-
-<p align="center">
-  <em>Figure 2.2: 3D-LiDAR multi-object tracking trajectory and state estimation of floating debris targets.</em>
+  <img src="https://github.com/user-attachments/assets/70a830c7-0e7c-4548-af64-dc179f4f781d" width="70%" alt="3D-LiDAR Multi-Object Tracking Output" />
+  <em> 3D-LiDAR multi-object tracking trajectory and state estimation of floating debris targets.</em>
 </p>
 ---
 
