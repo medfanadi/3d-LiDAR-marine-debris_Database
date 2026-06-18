@@ -32,7 +32,7 @@ In-situ detection of floating plastic debris using 3D LiDAR sensors remains chal
 
 #### Experimental Tracking 
 
-An advanced spatial filtering using **Joint Probabilistic Data Association Filter (JPDAF)** 
+An advanced spatial filtering using **Kalman Filtering** 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/70a830c7-0e7c-4548-af64-dc179f4f781d" width="70%" alt="3D-LiDAR Multi-Object Tracking Output" />
