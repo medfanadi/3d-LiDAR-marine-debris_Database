@@ -48,6 +48,14 @@ An advanced spatial filtering using **Joint Probabilistic Data Association Filte
   <em>3D-LiDAR multi-object tracking trajectory and state estimation (velocity and acceleration) of floating debris targets.</em>
 </p>
 
+The tracking filter estimates the full 3D kinematic state—including position, velocity, and acceleration—for each detected floating debris item.
+
+<p align="center">
+  <img width="923" height="422" alt="Multi-Object Tracking State Estimation" src="https://github.com/user-attachments/assets/fe7bcab2-a4c7-4c8f-9d61-5ae0a718515b" />
+</p>
+<p align="center">
+  <em>3D-LiDAR multi-object tracking: Estimated velocity, and acceleration profiles for each detected debris target.</em>
+</p>
 ---
 
 ## 📌 Repository Overview
