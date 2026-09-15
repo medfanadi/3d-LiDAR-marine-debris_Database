@@ -88,16 +88,6 @@ All data streams were captured using an **Ouster OS1-128 with embarked IMU** dig
 | **Wavelength** | 865 nm | Near-infrared band optimized for surface reflectivity |
 | **Range Resolution** | $\pm 1$ to $3$\,cm | Tightly bounds the structural sensor uncertainty ($[\mathbf{v}]$) |
 
----
-
-## ⚖️ Dependencies and Licenses
-
-While the scripts and algorithmic setups provided in this repository are fully open-source, interfacing with the dataset and running the execution pipeline requires the following environmental stack:
-
-* **Repository Code License:** Distributed under the permissive [MIT License](LICENSE).
-* **MATLAB Processing Core:** Requires a valid [MATLAB License](https://www.mathworks.com/pricing-licensing.html) paired with the **Lidar Toolbox** (used for geometric 3D point cloud filtering, interval propagation, and object-tracking).
-* **OusterStudio (Optional):** Used for direct local visualization and manual telemetry playback of the raw `.pcap` captures. 
-* **Python Environment:** Data parsing scripts are built on open-source libraries compliant with the [Python Software Foundation (PSF) License](https://docs.python.org/3/license.html).
 
 ---
 
