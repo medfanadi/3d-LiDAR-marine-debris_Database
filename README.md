@@ -29,6 +29,9 @@ In-situ detection of floating plastic debris using 3D LiDAR sensors remains chal
 <p align="center">
   <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/0b3c20ed-7e5f-44b4-b069-2febec6aea0b" />
 </p>
+ <p align="center">
+  <em> Detection of marin debris using a 3D LiDAR data.</em>
+</p>
 
 #### Experimental Tracking 
 
