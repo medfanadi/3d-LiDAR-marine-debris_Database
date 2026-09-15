@@ -17,7 +17,10 @@ Advanced maritime experiments were conducted in the specialized wave-and-current
 * **Objective:**  Evaluate the performance of a multi-sensor 3D LiDAR system integrated with an onboard IMU for detecting, isolating, and estimating the spatial extent of floating debris under varying wave and current conditions. The experiments also aimed to validate the tracking filter using the collected 3D LiDAR measurements.
 
 <p align="center">
-  <img width="120%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
+  <img width="100%" alt="IFREMER Flume Tank Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/3c72166f-0560-4f2a-b4b6-8b36da7b59d0" />
+</p>
+<p align="center">
+  <em>Experiments at IFREMER to evaluate the 3D LiDAR sensor feasibility for marine debris detection.</em>
 </p>
 
 ### 2. Real-World Port Testing (Calais Port)
@@ -29,8 +32,8 @@ In-situ detection of floating plastic debris using 3D LiDAR sensors remains chal
 <p align="center">
   <img width="100%" alt="Calais Port Experimental Setup and Data Output" src="https://github.com/user-attachments/assets/0b3c20ed-7e5f-44b4-b069-2febec6aea0b" />
 </p>
- <p align="center">
-  <em> Detection of marin debris using a 3D LiDAR data.</em>
+<p align="center">
+  <em>Detection of marine debris using 3D LiDAR data.</em>
 </p>
 
 #### Experimental Tracking 
@@ -39,10 +42,10 @@ An advanced spatial filtering using **Joint Probabilistic Data Association Filte
 
 
 <p align="center">
-<img width="909" height="418" alt="image" src="https://github.com/user-attachments/assets/3bb3dbf4-ed26-4ed6-ae42-60a6ce4f3f56" />
-  </p>
-  <p align="center">
-  <em> 3D-LiDAR multi-object tracking trajectory and state estimation of floating debris targets.</em>
+  <img width="909" height="418" alt="3D-LiDAR Multi-Object Tracking Visualization" src="https://github.com/user-attachments/assets/3bb3dbf4-ed26-4ed6-ae42-60a6ce4f3f56" />
+</p>
+<p align="center">
+  <em>3D-LiDAR multi-object tracking trajectory and state estimation (velocity and acceleration) of floating debris targets.</em>
 </p>
 
 ---
